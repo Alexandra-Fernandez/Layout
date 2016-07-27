@@ -1,0 +1,23 @@
+body {
+	background-color: #FFFFFF;
+	width: 90%;
+	max-width: 700px;
+	margin: auto;
+	text-align: center;
+}
+img {
+	width: 200px;
+	height: 200px;
+ 
+}
+.caja {
+	display: block;
+	width: 760px;
+	height: 550px;
+}
+.fila {
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+}
+

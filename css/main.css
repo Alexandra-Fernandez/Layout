@@ -1,0 +1,65 @@
+
+body {
+	background: #F5DEB3;
+}
+header, section {
+	background-color: #FFFFFF;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+} 
+header, nav {
+	overflow: hidden;
+}
+header, nav, ul {
+	list-style: none;
+}
+header, nav, ul, li {
+	float: left;
+}
+header, nav, ul, li, a {
+	padding: 1px 20px;
+	display: block;
+	font-size: 25px;
+}
+ul {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.Inicio {
+	border-right: 1px solid black;
+	height: 15px;
+	padding-bottom: 5px;
+	text-align-last: 5px;
+}
+.párrafo {
+	padding: 30px 280px;
+	font-size: 25px;
+}
+
+.contenedor {
+	background-color: black;
+	height: 5px;
+	width: 100px;
+}
+.caja {
+	display:block;
+	width: 750px;
+	height: 550px;
+}
+.fila {
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+}
+.letra {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: white;
+}
+img:hover{
+	opacity: 0.5;
+	filter: 1;
+}
